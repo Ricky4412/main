@@ -1,0 +1,161 @@
+body {
+    background-color: black;
+    font-family: Arial;
+}
+
+.container {
+    position: relative;
+    width: 350px;
+    height: 520px;
+    margin: auto;
+    padding: 5px;
+}
+
+.container .box {
+    position: relative;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    background-color: hsl(0, 0%, 12%);
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    margin: 10%;
+    margin-left: 36%;
+
+}
+#para5 {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400, 600, 700;
+    margin-top: 20px;
+    justify-content: center;
+    color: whitesmoke;
+    text-align: center;
+}
+#para6 {
+    font-size: 14px;
+    font-family: sans-serif, 'Arial Narrow Bold';
+    font-weight: 400, 600, 700;
+    text-align: center;
+    justify-content: center;
+    color: hsl(75, 94%, 57%);
+    margin-top: -20px;
+
+}
+
+#para7 {
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-top: 1px;
+
+
+}
+
+.rectangle {
+    display: flex;
+    width: 252px; /* Width of the rectangle */
+    height: 35px; /* Height of the rectangle */
+    background-color:   hsl(0, 0%, 20%); /* Background color of the rectangle */
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11%;
+    color: hsl(0, 0%, 100%);
+
+}
+.rectangle:hover {
+    background-color:  hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: auto;
+}
+
+.rectangle-1 {
+    display: flex;
+    width: 252px; /* Width of the rectangle */
+    height: 35px; /* Height of the rectangle */
+    background-color:   hsl(0, 0%, 20%); /* Background color of the rectangle */
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11%;
+    margin-top: 3%;
+    color: hsl(0, 0%, 100%);
+}
+
+.rectangle-1:hover {
+    background-color:  hsl(75, 94%, 57%);
+    cursor: pointer;
+    
+}
+
+.rectangle-2 {
+    display: flex;
+    width: 252px; /* Width of the rectangle */
+    height: 35px; /* Height of the rectangle */
+    background-color:   hsl(0, 0%, 20%); /* Background color of the rectangle */
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11%;
+    margin-top: 3%;
+    color: hsl(0, 0%, 100%);
+}
+
+.rectangle-2:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.rectangle-3 {
+    display: flex;
+    width: 252px; /* Width of the rectangle */
+    height: 35px; /* Height of the rectangle */
+    background-color:   hsl(0, 0%, 20%); /* Background color of the rectangle */
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11%;
+    margin-top: 3%;
+    color: hsl(0, 0%, 100%);
+}
+
+.rectangle-3:hover {
+    background-color:  hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: auto;
+}
+
+.rectangle-4 {
+    display: flex;
+    width: 252px; /* Width of the rectangle */
+    height: 35px; /* Height of the rectangle */
+    background-color:   hsl(0, 0%, 20%); /* Background color of the rectangle */
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11%;
+    margin-top: 3%;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.rectangle-4:hover {
+    background-color:  hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: auto;
+}
+.centered-text {
+    text-align: center;
+}
+
